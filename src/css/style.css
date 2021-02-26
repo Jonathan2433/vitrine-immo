@@ -1,0 +1,82 @@
+/*==========================HEADER=======================*/
+header#main-header {
+    background: center url("https://cdn.pixabay.com/photo/2017/12/11/13/33/interior-3012234_1280.jpg") no-repeat;
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+}
+header#main-header div.title {
+    font-family: var(--title);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header#main-header nav ul li a:hover{
+    background-color: var(--grey);
+    color: var(--white);
+    transform: translate(5px, -5px);
+    box-shadow: 2px 2px 10px var(--orange)
+}
+/*========================AGENCE========================*/
+section#agence{
+    font-family: var(--text);
+}
+section#agence svg#home {
+    width: 100%;
+    margin: auto;
+    color: var(--orange);
+}
+section#agence h3 {
+    font-family: var(--title);
+} 
+section#agence h2 {
+    font-family: var(--title);
+}
+/*=============HIGHLIGHT==========*/
+section.highlight h2.highlight-title{
+    font-family: var(--title);
+}
+section.highlight div.higlight-card {
+    position: relative;
+}
+section.highlight div.higlight-card div.highlight-card-header h3{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+section#highlight div.higlight-card div.highlight-card-body {
+    font-family: var(--text);
+}
+/*=====================PARALLAX=======================*/
+main section div.parallax {
+    height: 50vh;
+    background: url("https://www.rdm.com/var/site/storage/images/microsites/digital-building/digital-building/2039568-1-eng-US/Digital-Building_i1920.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+}
+main section div.parallax2 {
+    height: 50vh;
+    background: url("https://frenchdistrict.com/new-york/wp-content/uploads/sites/3/2017/02/plus-beaux-buildings-new-york-manhattan-chrysler-building-featured-article2-1-1024x701.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+}
+main section div.parallax3 {
+    height: 50vh;
+    background: url("https://www.createdigital.org.au/wp-content/uploads/2019/07/Building-Ministers-Forum-building-safety.jpg") center no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+}
+ /*====================RESPONSIVE=====================*/
+ @media screen and (min-width: 992px){
+    section#agence svg#home {
+        width: 40%;
+        height: 50%;
+        margin: 0;
+    } 
+    header#main-header {
+        height: 65vh;
+        position: relative;
+    }
+ }
