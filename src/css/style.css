@@ -52,7 +52,7 @@ section#highlight div.higlight-card div.highlight-card-body {
 /*=====================PARALLAX=======================*/
 main section div.parallax {
     height: 50vh;
-    background: url("https://www.rdm.com/var/site/storage/images/microsites/digital-building/digital-building/2039568-1-eng-US/Digital-Building_i1920.jpg") center no-repeat fixed;
+    background: url("https://cdn.pixabay.com/photo/2020/08/24/14/27/skyscraper-5514095_1280.jpg") center no-repeat fixed;
     background-size: cover;
     width: 100vw;
 }
